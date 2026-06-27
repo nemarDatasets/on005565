@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Neural associations between fingerspelling, print, and signs: An ERP priming study with deaf readers",
+  "description": "This event-related potential (ERP) study investigates neural mechanisms underlying the integration of fingerspelling, printed English words, and American Sign Language (ASL) signs in deaf readers. Using a priming paradigm with 300 prime-target pairs, the dataset captures electrophysiological responses to identity and translation primes across three modalities, providing insights into cross-modal language processing in the deaf population.",
+  "methods_description": "Participants were seated in a sound-attenuated room and presented with prime-target pairs while EEG was recorded. Primes consisted of English words (300ms), ASL signs (M=565ms), or fingerspelled words (M=1173ms), followed by four-letter English word targets (500ms). Participants performed an animal detection task using a gamepad. Fixation crosses (800ms purple, 500ms white) preceded each trial.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,50 +14,12 @@
     "Phillip J. Holcomb": {},
     "Karen Emmorey": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005565.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005565",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on005565",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".mp4",
-    ".set",
-    ".tsv",
-    ".xlsx"
-  ],
-  "description": "This event-related potential (ERP) study investigates neural mechanisms underlying visual word recognition in deaf readers by examining semantic priming effects across three prime modalities: English print, American Sign Language (ASL), and fingerspelling. Deaf participants viewed 300 prime-target pairs while EEG was recorded, with primes presented in English words, ASL signs, or fingerspelled forms followed by English word targets. The study elucidates how different orthographic and linguistic representations activate semantic knowledge in deaf individuals.",
-  "methods_description": "Participants were seated in a darkened, sound-attenuated room at a viewing distance of 150 cm from an LCD monitor. EEG was recorded while participants viewed 300 prime-target pairs consisting of English word primes (300 ms), ASL sign primes (M = 565 ms), or fingerspelled word primes (M = 1173 ms), each followed by 4-letter English word targets (500 ms). Participants performed a button-press task on a gamepad to identify animal stimuli across all modalities. Fixation crosses (800 ms purple, 500 ms white) preceded each trial.",
   "keywords": [
     {
       "term": "ERP"
     },
     {
       "term": "EEG"
-    },
-    {
-      "term": "semantic priming"
     },
     {
       "term": "deaf readers"
@@ -67,8 +31,45 @@
       "term": "fingerspelling"
     },
     {
-      "term": "visual word recognition"
+      "term": "semantic priming"
+    },
+    {
+      "term": "cross-modal language processing"
     }
   ],
-  "source_hash": "73f98212ccad2a0c363f9b3e793753d25916166fdf3b6834055f8612a7554c4d"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005565",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005565",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005565.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "2.8 GB (55 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".mp4",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "3b982de0b1575b0ab29d5882639f37acaa97f18ef43c6f1cb2ae2df6e5aa0b5f"
 }
