@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005565",
+  "source": "openneuro",
+  "source_id": "ds005565",
+  "title": "Neural associations between fingerspelling, print, and signs: An ERP priming study with deaf readers",
+  "authors": {
+    "Brittany Lee": {},
+    "Sofia E. Ortega": {},
+    "Priscilla M. Martinez": {},
+    "Katherine J. Midgley": {},
+    "Phillip J. Holcomb": {},
+    "Karen Emmorey": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005565.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
