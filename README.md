@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005565-blue)](https://doi.org/10.82901/nemar.on005565)
+
 Data collection took place at the NeuroCognition Laboratory (NCL) in San Diego, California under the supervision of Dr. Phillip Holcomb. This project followed the San Diego State University’s IRB guidelines. 
 
 Participants sat in a comfortable chair in a darkened sound attenuated room throughout the experiment. They were given a gamepad for button pressing. They were instructed to watch the LCD video monitor that was at a viewing distance of 150cm. 
