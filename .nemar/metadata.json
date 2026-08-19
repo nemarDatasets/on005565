@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Neural associations between fingerspelling, print, and signs: An ERP priming study with deaf readers",
-  "description": "This event-related potential (ERP) study investigates neural mechanisms underlying the integration of fingerspelling, printed English words, and American Sign Language (ASL) signs in deaf readers. Using a priming paradigm with 300 prime-target pairs, the dataset captures electrophysiological responses to identity and translation primes across three modalities, providing insights into cross-modal language processing in the deaf population.",
-  "methods_description": "Participants were seated in a sound-attenuated room and presented with prime-target pairs while EEG was recorded. Primes consisted of English words (300ms), ASL signs (M=565ms), or fingerspelled words (M=1173ms), followed by four-letter English word targets (500ms). Participants performed an animal detection task using a gamepad. Fixation crosses (800ms purple, 500ms white) preceded each trial.",
+  "description": "This dataset contains EEG recordings from an ERP priming study investigating neural associations between fingerspelling, print, and signs in deaf readers. Participants viewed prime-target pairs consisting of English words, ASL signs, or fingerspelled words followed by English word targets, allowing examination of cross-modal semantic priming effects. The study was conducted at San Diego State University's NeuroCognition Laboratory.",
+  "methods_description": "Participants sat in a darkened, sound-attenuated room and viewed stimuli on an LCD monitor at 150cm viewing distance. They were presented with 300 prime-target pairs (100 English word primes, 100 ASL sign primes, 100 fingerspelled word primes), half related and half unrelated to targets. Each trial began with a purple fixation cross (800ms), then a white cross (500ms), followed by the prime stimulus (300ms for words, variable duration for ASL and fingerspelled videos) and a 4-letter English word target (500ms). Participants pressed a gamepad button upon detecting an animal stimulus across any modality.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,13 +16,10 @@
   },
   "keywords": [
     {
-      "term": "ERP"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "deaf readers"
+      "term": "event-related potentials"
     },
     {
       "term": "American Sign Language"
@@ -31,10 +28,15 @@
       "term": "fingerspelling"
     },
     {
+      "term": "deaf readers"
+    },
+    {
       "term": "semantic priming"
     },
     {
-      "term": "cross-modal language processing"
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     }
   ],
   "related_identifiers": [
